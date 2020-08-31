@@ -13879,13 +13879,14 @@
       html {
         height: 100%;
       }
+      .bg-img .btn {
+        color: #fff;
+        width: 300px;
+        font-size: 1.2rem;
+        letter-spacing: 1.5px;
+      }
       .mobile {
         display: none;
-      }
-      @media only screen and (min-width: 1450px) {
-        .grid-container .footer .img-move {
-          bottom: 26vh;
-        }
       }
       a {
         color: #a64de9;
@@ -13923,6 +13924,11 @@
       .flex a :visited {
         color: #a64de9;
       }
+      .discover {
+        position: absolute;
+        top: 50vh;
+        left: 12vw;
+      }
       #about-icon,
       #contact-icon,
       #home-icon,
@@ -13931,6 +13937,13 @@
         font-size: 3.5rem;
         padding-top: 1rem;
       }
+      @media only screen and (min-width: 1450px) {
+        .grid-container .footer .img-move {
+          bottom: 26vh;
+        }
+      }
+      
+      
       @media only screen and (max-width: 1500px) {
         .bg-img {
           background-position: bottom;
@@ -13943,6 +13956,7 @@
         }
         .bg-img {
           background-image: url(/_nuxt/img/mobilehome.07dffa0.png);
+          background-attachment: bottom;
         }
         .discover {
           top: 25vh;
@@ -13958,24 +13972,15 @@
           font-size: 1.3rem;
         }
       }
-      .discover {
-        position: absolute;
-        top: 50vh;
-        left: 12vw;
-      }
-      .bg-img .btn {
-        color: #fff;
-        width: 300px;
-        font-size: 1.2rem;
-        letter-spacing: 1.5px;
-      }
+
+      
       @media only screen and (max-width: 1500px) {
         .bg-img .btn {
           width: 200px;
           font-size: 1rem;
+          color: #fff;
         }
       }
-      
     </style>
     <link
       rel="preload"
